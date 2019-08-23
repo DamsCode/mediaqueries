@@ -1,0 +1,47 @@
+@media only screen and (max-width: 300px) {
+    body {
+        background-color: red;
+    }
+    #medium {
+        visibility: hidden;
+    }
+    #large {
+        visibility: hidden;
+    }
+    p {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:798px) and (min-width:301px) {
+    body {
+        background-color: green;
+    }
+    #small {
+        visibility: hidden;
+    }
+    #large {
+        visibility: hidden;
+    }
+    p {
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        font-size: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background-color: blue;
+    }
+    #small {
+        visibility: hidden;
+    }
+    #medium {
+        visibility: hidden;
+    }
+    p {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 40px;
+    }
+}
